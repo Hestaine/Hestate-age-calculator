@@ -15,10 +15,10 @@
     />
   </head>
   <body
-    class="pb-[4rem] bg-brandColor text-slate-300 font-serif overflow-hidden"
+    class="pb-[4rem] bg-brandColor text-slate-300 font-serif overflow-x-hidden"
   >
     <div
-      class="nav flex flex-row items-center px-[1rem] pt-[0.6rem] justify-between mb-[1rem]"
+      class="nav shadow-2xl w-[100vw] shadow-dropdowncolor flex flex-row items-center px-[2rem] py-[0.6rem] justify-between mb-[1rem]"
     >
       <a href="index.html">
         <img
@@ -44,30 +44,30 @@
       </nav>
     </div>
     <main class="m">
-      <div class="introduction">
-        <h1 class="w-[100vw]">
-          Hestate age calculator on the go, by Hestaine😉
+      <div class="introduction flex flex-col gap-[3rem] mb-[2rem]">
+        <h1 class="w-[100vw] text-[3rem] font-[400] text-center mb-[1rem]">
+          Hestate: age calculator on the go, by Hestaine😉
         </h1>
-        <div class="short-intro1">
+        <div class="flex w-[100vw] gap-[2rem] px-[2rem] items-center">
           <img
             src="./images/pexels-ron-lach-7954883.jpg"
             alt="intro"
-            class="size-[12rem]"
+            class="w-[12rem] lg:w-[40vw] lg:h-[40vh]"
           />
-          <p>
-            Tired of calculating your age🥱, well with Hestate u don't need to
+          <p class="w-[60vw] text-[1.5rem]">
+            Tired of calculating your age?🥱, well with Hestate u don't need to
             hesitate😁, this product is for we lazy people that can, but don't
             want to do it😩, yes I'm included so let's explore Hestate age
             calculator and other projects together👍
           </p>
         </div>
-        <div class="short-intro2">
+        <div class="flex w-[100vw] gap-[2rem] px-[2rem] items-center">
           <img
             src="./images/pexels-jordan-benton-1095601.jpg"
             alt="intro"
-            class="size-[12rem]"
+            class="w-[12rem] lg:w-[40vw] lg:h-[40vh]"
           />
-          <p>
+          <p class="w-[60vw] text-[1.5rem]">
             Time flies, we forget a lot of things most people say it's because
             of aging😪, well you don't need to memorize your age again, cos
             Hestate is here😉, we just need one crucial unforgettabe info, your
@@ -75,11 +75,18 @@
           </p>
         </div>
       </div>
-      <section class="calculate-section">
-        <h2>Let the fun begin🤗</h2>
-        <div class="calculate">
-          <h3 class="calculate-text">Please input your age below:</h3>
-          <input type="number" name="input" id="input" class="" />
+      <section
+        class="calculate-section flex flex-col w-100n gap-[2rem] px-[2rem]"
+      >
+        <h2 class="text-[3rem] mb-[1rem] text-center">Let the fun begin🤗</h2>
+        <div class="calculate gap-[1.5rem]">
+          <h3 class="calculate-text text-[2.1rem]">
+            Please input your age below:
+          </h3>
+          <div class="flex gap-[2rem]">
+            <input type="number" name="input" id="input" class="" />
+            <button class="check">Check Age🚀</button>
+          </div>
           <h4 class="age">wow 100 years?</h4>
         </div>
       </section>
@@ -109,7 +116,7 @@
         <a href="" class="li"><i class="fa-brands fa-discord"></i></a>
         <a href="" class="li"><i class="fa-brands fa-github"></i></a>
       </div>
-      <div class="other-projects">
+      <div class="other-projects hidden">
         <h2>Actuallyy i have just one project related to this😌</h2>
         <p>
           There might be more projects to be associated with this so stay
