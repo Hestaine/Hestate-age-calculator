@@ -11,7 +11,7 @@ module.exports = {
       colors: {
         brandColor: "rgba(115, 96, 255)",
         dropdowncolor: "#645bac",
-        lightBrand: "rgba(115, 96, 255, 0.4)",
+        buttonColor: "#deeeff",
       },
     },
   },
