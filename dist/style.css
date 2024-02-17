@@ -640,6 +640,11 @@ video {
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
+.bg-buttonColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(222 238 255 / var(--tw-bg-opacity));
+}
+
 .px-\[0\.5rem\] {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
