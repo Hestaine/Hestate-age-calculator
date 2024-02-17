@@ -543,3 +543,17 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.size-\[0\.5rem\] {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.h-\[12px\] {
+  height: 12px;
+}
+
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
