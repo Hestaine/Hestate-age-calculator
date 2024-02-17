@@ -544,16 +544,95 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-\[1rem\] {
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
 .size-\[12rem\] {
   width: 12rem;
   height: 12rem;
 }
 
-.size-\[4rem\] {
-  width: 4rem;
-  height: 4rem;
+.size-\[3rem\] {
+  width: 3rem;
+  height: 3rem;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[1\.3rem\] {
+  gap: 1.3rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.bg-brandColor {
+  --tw-bg-opacity: 1;
+  background-color: rgba(115, 96, 255, var(--tw-bg-opacity));
+}
+
+.px-\[1rem\] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pb-\[4rem\] {
+  padding-bottom: 4rem;
+}
+
+.pt-\[0\.6rem\] {
+  padding-top: 0.6rem;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-slate-300 {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+
+.hover\:text-blue-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+
+.active\:text-red-600:active {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:gap-\[2rem\] {
+    gap: 2rem;
+  }
 }
