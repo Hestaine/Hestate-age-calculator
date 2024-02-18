@@ -787,6 +787,10 @@ video {
   padding-left: 1rem;
 }
 
+.pl-\[1\.5rem\] {
+  padding-left: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
