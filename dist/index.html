@@ -15,8 +15,11 @@
     />
   </head>
   <body
-    class="pb-[4rem] bg-brandColor text-slate-300 font-serif overflow-x-hidden"
+    class="pb-[4rem] bg-brandColor text-slate-100 font-serif overflow-x-hidden relative"
   >
+    <div
+      class="overlay hidden absolute h-[100vh] w-[100vw] bg-opaqeBlack blur-[10px]"
+    ></div>
     <div
       class="nav shadow-2xl w-[100vw] shadow-dropdowncolor flex flex-row items-center px-[2rem] py-[0.6rem] justify-between mb-[1rem]"
     >
@@ -35,78 +38,108 @@
         <a href="about.html" class="hover:text-blue-400 active:text-red-600"
           >About</a
         >
-        <a href="#" class="hover:text-blue-400 active:text-red-600"
+        <a href="#contact-info" class="hover:text-blue-400 active:text-red-600 contact-btn"
           >Contact me</a
         >
-        <a href="" class="hover:text-blue-400 active:text-red-600"
+        <!-- <a href="" class="hover:text-blue-400 active:text-red-600 other-btn"
           >Other Products</a
-        >
+        > -->
       </nav>
     </div>
-    <main class="m">
-      <div class="introduction flex flex-col gap-[3rem] mb-[2rem]">
-        <h1 class="w-[100vw] text-[3rem] font-[400] text-center mb-[1rem]">
-          Hestate: age calculator on the go, by Hestaine😉
-        </h1>
-        <div class="flex w-[100vw] gap-[2rem] px-[2rem] items-center">
-          <img
-            src="./images/pexels-ron-lach-7954883.jpg"
-            alt="intro"
-            class="w-[12rem] lg:w-[40vw] lg:h-[40vh]"
-          />
-          <p class="w-[60vw] text-[2rem] leading-[3rem]">
-            Tired of calculating your age?🥱, well with Hestate u don't need to
-            hesitate😁, this product is for we lazy people that can, but don't
-            want to do it😩, yes I'm included so let's explore Hestate age
-            calculator and other projects together👍
-          </p>
-        </div>
-        <div class="flex w-[100vw] gap-[2rem] px-[2rem] items-center">
-          <img
-            src="./images/pexels-jordan-benton-1095601.jpg"
-            alt="intro"
-            class="w-[12rem] lg:w-[40vw] lg:h-[40vh]"
-          />
-          <p class="w-[60vw] text-[2rem] leading-[3rem]">
-            Time flies, we forget a lot of things most people say it's because
-            of aging😪, well you don't need to memorize your age again, cos
-            Hestate is here😉, we just need one crucial unforgettabe info, your
-            bith year🎉.
-          </p>
-        </div>
-      </div>
-      <section class="calculate-section flex flex-col px-[2rem] mb-[1rem]">
-        <h2 class="text-[3rem] mb-[1rem] text-center">Let the fun begin🤗</h2>
-        <div class="calculate gap-[2rem]">
-          <h3 class="calculate-text text-[2.1rem]">
-            Please input your birth year below:
-          </h3>
-          <div class="flex gap-[2rem]">
-            <input
-              type="text"
-              name="input"
-              id="input"
-              class="bg-slate-300 text-dropdowncolor h-[2rem] w-[12rem] outline-dropdowncolor px-[0.5rem] rounded-lg"
-              maxlength="4"
+    <main class="flex flex-col lg:ml-[2rem] sm:ml-0">
+      <h1 class="w-[100vw] lg:text-[3rem] sm:text-[1.4rem] font-[400] text-center m-auto mb-[1rem] ml-[2rem]">
+        Hestate: age calculator on the go, by Hestaine😉
+      </h1>
+      <section class="flex lg:flex-row sm:flex-col gap-[1rem] w-[100vw]">
+        <div class="introduction flex flex-col gap-[1.5rem] mb-[2rem]">
+          <div class="flex lg:flex-row sm:flex-col lg:w-[50vw] sm:w-[100vw] gap-[2rem] px-[2rem] items-center">
+            <img
+              src="./images/pexels-ron-lach-7954883.jpg"
+              alt="intro"
+              class="lg:size-[10rem] sm:size-[15rem]"
             />
-            <button
-              class="bg-buttonColor check px-[1rem] rounded-lg shadow-xl text-dropdowncolor"
-            >
-              Check Age🚀
-            </button>
+            <p class="w-[35vw] text-[1.1rem]">
+              Tired of calculating your age?🥱, well with Hestate u don't need
+              to hesitate😁, this product is for we lazy people that can, but
+              don't want to do it😩, yes I'm included so let's explore Hestate
+              age calculator and other projects together👍
+            </p>
           </div>
-          <h4 class="age text-[1.5rem]">wow 100 years?</h4>
+          <div class="flex lg:flex-row sm:flex-col lg:w-[50vw] sm:w-[100vw] gap-[2rem] px-[2rem] items-center">
+            <img
+              src="./images/pexels-jordan-benton-1095601.jpg"
+              alt= "intro"
+              class="lg:size-[10rem] sm:size-[15rem]"
+            />
+            <p class="w-[35vw] text-[1.1rem]">
+              Time flies, we forget a lot of things most people say it's because
+              of aging😪, well you don't need to memorize your age again, cos
+              Hestate is here😉, we just need one crucial unforgettabe info,
+              your bith year🎉.
+            </p>
+          </div>
+        </div>
+          <div
+            class="other-projects lg:size-[25rem] flex flex-col gap-[1rem] w-[70vw]"
+          >
+            <h2 class="text-[1.8rem] text-center underline">Associated projects</h2>
+            <img src="./images/pexels-mat-brown-552598.jpg" alt="associate" class="lg:h-[10rem] w-[25rem]">
+            <p class="text-[1.2rem]">
+              There might be more projects to be associated with this so stay
+              tuned😉
+            </p>
+            <h3 class="text-[1.5rem]">
+              Projects:
+              <a
+                href=""
+                class="hover:text-blue-400 active:text-red-600 shadow-2xl shadow-brandColor"
+                >Hestate retirement calculator</a
+              >
+            </h3>
+          </div>
         </div>
       </section>
-    </main>
-    <footer>
-      <div class="links">
-        <a href="" class="li">Home</a>
-        <a href="" class="li">About me</a>
-        <a href="" class="li">Other Products</a>
+    <div class="calculate-section flex-col absolute bg-dropdowncolor lg:top-[7rem] lg:left-[26rem]  mb-[1rem] items-center p-[2rem] rounded hidden">
+      <h2 class="text-[3rem] mb-[1rem]">Let the fun begin🤗</h2>
+      <div class="calculate flex flex-col gap-[2rem]">
+        <h3 class="calculate-text text-[2.1rem]">
+              Please input your birth year below:
+        </h3>
+        <div class="flex gap-[3rem]">
+          <input
+                type="text"
+                name="input"
+                id="input"
+                class="bg-buttonColor text-dropdowncolor h-[2rem] w-[12rem] outline-dropdowncolor px-[0.5rem] rounded-lg"
+                maxlength="4"
+                placeholder="2008"
+              />
+          <button
+                class="bg-buttonColor check px-[1rem] rounded-lg shadow-xl text-dropdowncolor"
+              >
+                Check Age 🚀
+          </button>
+        </div>
+        <h4 class="age text-[2.5rem]">wow 100 years?</h4>
       </div>
-      <div class="" id="contact">
-        <div class="contact-info">
+    </main>
+    <button class="grid get-age bg-buttonColor p-[12px] lg:w-[12.5rem] rounded text-dropdowncolor mt-0 m-auto place-items-center text-[2rem] font-[400] shadow shadow-indigo-400">Get Age!</button>
+    <footer
+      class="flex flex-col px-[4rem] w-[100vw] shadow-upward h-[10vh] py-[1rem] mt-[2rem]"
+    >
+      <div class="links flex gap-[3rem] mb-[1rem]">
+        <a href="index.html" class="hover:text-blue-400 active:text-red-600"
+          >Home</a
+        >
+        <a href="about.html" class="hover:text-blue-400 active:text-red-600"
+          >About me</a
+        >
+        <a href="" class="other-btn hover:text-blue-400 active:text-red-600"
+          >Other Products</a
+        >
+      </div>
+      <div class="flex gap-[3rem]" id="contact">
+        <div class="contact-info flex gap-[1.5rem] items-center">
           <p class="coantact-p">
             Reach me at: <a href="tel:+2348115952280">+2348115952280</a>
           </p>
@@ -116,25 +149,25 @@
           </p>
           <p class="contact-p">Location: <a href="#">Just contact me😅</a></p>
         </div>
-        <div class="reach-me">
-          <h3>You can also check me out at</h3>
+        <div class="reach-me flex gap-[1rem] items-center">
+          <h3>You can also check me out at:</h3>
+          <div class="flex gap-[1rem]">
+            <a href="" class="text-blue-600 text-[2rem]"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="" class="text-blue-600 text-[2rem]"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="" class="text-blue-600 text-[2rem]"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
+            <a href="" class="text-slate-600 text-[2rem]"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
         </div>
-        <a href="" class="li"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="" class="li"><i class="fa-brands fa-twitter"></i></a>
-        <a href="" class="li"><i class="fa-brands fa-discord"></i></a>
-        <a href="" class="li"><i class="fa-brands fa-github"></i></a>
       </div>
-      <div class="other-projects hidden">
-        <h2>Actuallyy i have just one project related to this😌</h2>
-        <p>
-          There might be more projects to be associated with this so stay
-          tuned😉
-        </p>
-        <h3>Projects:</h3>
-        <ul>
-          <li><a href="">Hestate retirement calculator</a></li>
-        </ul>
-      </div>
+      <p class="text-center">©copyright Hestate 2024</p>
     </footer>
     <script src="script.js"></script>
   </body>
