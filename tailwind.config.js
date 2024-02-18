@@ -9,9 +9,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        brandColor: "rgba(115, 96, 255)",
         opaqeBlack: "rgba(0, 0, 0, 0.7)",
-        dropdowncolor: "#645bac",
         buttonColor: "#deeeff",
       },
       boxShadow: {
