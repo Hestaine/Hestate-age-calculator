@@ -1101,6 +1101,14 @@ video {
     width: 87vw;
   }
 
+  .sm\:w-\[93vw\] {
+    width: 93vw;
+  }
+
+  .sm\:w-\[98vw\] {
+    width: 98vw;
+  }
+
   .sm\:flex-col {
     flex-direction: column;
   }
