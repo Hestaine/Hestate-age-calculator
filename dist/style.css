@@ -962,6 +962,10 @@ video {
     margin-left: 1.5rem;
   }
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:size-\[15rem\] {
     width: 15rem;
     height: 15rem;
@@ -991,6 +995,10 @@ video {
 
   .sm\:gap-\[1\.2rem\] {
     gap: 1.2rem;
+  }
+
+  .sm\:gap-\[1\.5rem\] {
+    gap: 1.5rem;
   }
 
   .sm\:p-\[1\.5rem\] {
@@ -1023,6 +1031,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
   .lg\:left-\[26rem\] {
     left: 26rem;
   }
@@ -1037,6 +1049,14 @@ video {
 
   .lg\:ml-\[2rem\] {
     margin-left: 2rem;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:size-\[10rem\] {
