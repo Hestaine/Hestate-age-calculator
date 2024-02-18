@@ -42,7 +42,7 @@ const calculatorClose = function () {
 const calcAge = function () {
   const input = document.querySelector(".calculate-input").value;
   const ageValue = year - input;
-  if (ageValue > 100) {
+  if (ageValue > 120) {
     age.textContent = `Don't cap (${ageValue})🧢`;
   } else if (ageValue > 80) {
     age.textContent = `Amazing (${ageValue})👴`;
@@ -58,8 +58,10 @@ const calcAge = function () {
     age.textContent = `Happy growing (${ageValue})🧒`;
   } else if (ageValue > 0) {
     age.textContent = `I'm suprised (${ageValue})👶`;
+  } else if (ageValue < 0) {
+    age.textContent = `Be realistic (${ageValue})🙄`;
   } else if (isNaN(ageValue)) {
-    age.textContent = `please input a number`;
+    age.textContent = `You know your offense 🚨`;
   }
   calculateText.textContent = "Thanks for inputing😁";
 };
