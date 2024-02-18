@@ -1010,6 +1010,10 @@ video {
     top: .1px;
   }
 
+  .sm\:left-\[0\.75rem\] {
+    left: 0.75rem;
+  }
+
   .sm\:m-auto {
     margin: auto;
   }
@@ -1087,6 +1091,10 @@ video {
 
   .sm\:w-\[94vw\] {
     width: 94vw;
+  }
+
+  .sm\:w-\[87vw\] {
+    width: 87vw;
   }
 
   .sm\:flex-col {
