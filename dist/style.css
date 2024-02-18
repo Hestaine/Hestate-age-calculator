@@ -1014,6 +1014,10 @@ video {
     left: 0.75rem;
   }
 
+  .sm\:top-\[95rem\] {
+    top: 95rem;
+  }
+
   .sm\:m-auto {
     margin: auto;
   }
