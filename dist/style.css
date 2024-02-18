@@ -665,8 +665,16 @@ video {
   place-items: center;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-between {
@@ -773,6 +781,10 @@ video {
 
 .pb-\[4rem\] {
   padding-bottom: 4rem;
+}
+
+.pl-\[1rem\] {
+  padding-left: 1rem;
 }
 
 .text-center {
@@ -981,6 +993,10 @@ video {
     padding: 1.5rem;
   }
 
+  .sm\:pl-0 {
+    padding-left: 0px;
+  }
+
   .sm\:text-\[2\.4rem\] {
     font-size: 2.4rem;
   }
@@ -1051,6 +1067,10 @@ video {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:items-center {
+    align-items: center;
   }
 
   .lg\:gap-\[2rem\] {
