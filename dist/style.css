@@ -1109,6 +1109,10 @@ video {
     width: 98vw;
   }
 
+  .sm\:w-\[96vw\] {
+    width: 96vw;
+  }
+
   .sm\:flex-col {
     flex-direction: column;
   }
