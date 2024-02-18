@@ -886,6 +886,11 @@ video {
     height: 15rem;
   }
 
+  .sm\:size-\[25rem\] {
+    width: 25rem;
+    height: 25rem;
+  }
+
   .sm\:w-\[100vw\] {
     width: 100vw;
   }
@@ -956,6 +961,11 @@ video {
 
   .lg\:gap-\[2rem\] {
     gap: 2rem;
+  }
+
+  .lg\:px-\[2rem\] {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .lg\:text-\[3rem\] {
