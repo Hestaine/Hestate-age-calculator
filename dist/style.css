@@ -576,6 +576,10 @@ video {
   margin-top: 2rem;
 }
 
+.ml-\[1rem\] {
+  margin-left: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -627,6 +631,14 @@ video {
 
 .w-\[70vw\] {
   width: 70vw;
+}
+
+.w-\[55vw\] {
+  width: 55vw;
+}
+
+.w-\[60vw\] {
+  width: 60vw;
 }
 
 .flex-row {
@@ -889,6 +901,11 @@ video {
   .sm\:size-\[25rem\] {
     width: 25rem;
     height: 25rem;
+  }
+
+  .sm\:size-\[20rem\] {
+    width: 20rem;
+    height: 20rem;
   }
 
   .sm\:w-\[100vw\] {
