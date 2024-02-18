@@ -1,5 +1,6 @@
-const menuBtn = document.querySelector(".menuBtn");
-const menuClose = document.querySelector(".menu-close");
+"use script";
+const menuBtn = document.querySelector(".menu");
+const menuClose = document.querySelector(".close-menu");
 const nav = document.querySelector(".nav");
 const contacBtn = document.querySelector(".contact-btn");
 const contacSection = document.getElementById("contact-info");
@@ -11,15 +12,16 @@ const input = document.querySelector(".calculate-input");
 const age = document.querySelector(".age");
 const overlay = document.querySelector(".overlay");
 
+console.log(nav);
 // Web functions
 // Menu open
 const openMenu = function () {
-  nav.classList.remove("hidden");
+  nav.classList.remove("sm:hidden");
   menuBtn.classList.add("hidden");
 };
 // Menu close
 const closeMenu = function () {
-  nav.classList.add("hidden");
+  nav.classList.add("sm:hidden");
   menuBtn.classList.remove("hidden");
 };
 // Calculator open
