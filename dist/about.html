@@ -14,8 +14,15 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
-    <div class="navBar">
+  <body
+    class="bg-slate-700 text-slate-100 font-serif overflow-x-hidden relative"
+  >
+    <div
+      class="overlay hidden absolute h-[56em] w-[100vw] bg-opaqeBlack blur-[10px] lg:top-0 lg:left-0 sm:top-[87rem] sm:left-[0.75rem]"
+    ></div>
+    <div
+      class="nav-parent shadow-2xl w-[100vw] shadow-dropdowncolor flex flex-row items-center lg:px-[2rem] sm:px-[0.8rem] py-[0.6rem] justify-between mb-[1rem]"
+    >
       <a href="index.html">
         <img
           src="./images/clock1.jpg"
@@ -27,7 +34,7 @@
         ><i class="fa-solid fa-bars cursor-pointer"></i
       ></picture>
       <nav
-        class="flex nav gap-[1.3rem] lg:gap-[2rem] lg:flex items-center sm:hidden"
+        class="flex nav gap-[1rem] lg:gap-[2rem] lg:flex items-center sm:hidden"
       >
         <h2 class="close-menu text-[2rem] lg:hidden cursor-pointer">×</h2>
         <a href="index.html" class="hover:text-blue- active:text-red-600"
@@ -37,9 +44,11 @@
           href="about.html"
           target="_blank"
           class="hover:text-blue-400 active:text-red-600"
-          >Other Projects</a
+          >other-projects</a
         >
-        <a href="#" class="hover:text-blue-400 active:text-red-600 contact-btn"
+        <a
+          href="#contact"
+          class="hover:text-blue-400 active:text-red-600 contact-btn"
           >Contact me</a
         >
         <!-- <a href="" class="hover:text-blue-400 active:text-red-600 other-btn"
@@ -47,5 +56,6 @@
         > -->
       </nav>
     </div>
+    <script src="about.js"></script>
   </body>
 </html>
