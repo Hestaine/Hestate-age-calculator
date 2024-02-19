@@ -3,7 +3,7 @@ const menuBtn = document.querySelector(".menu");
 const menuClose = document.querySelector(".close-menu");
 const nav = document.querySelector(".nav");
 const contacBtn = document.querySelector(".contact-btn");
-const contacSection = document.getElementById("contact-info");
+const contacSection = document.getElementById("contact");
 const getAge = document.querySelector(".get-age");
 const calculateAge = document.querySelector(".calculate-section");
 const calculateClose = document.querySelector(".calculate-close");
@@ -72,3 +72,7 @@ menuClose.addEventListener("click", closeMenu);
 getAge.addEventListener("click", calculatorOpen);
 calculateClose.addEventListener("click", calculatorClose);
 checkAge.addEventListener("click", calcAge);
+contacBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  contacSection.scrollIntoView({ behavior: "smooth" });
+});
