@@ -633,6 +633,10 @@ video {
   cursor: pointer;
 }
 
+.scroll-mt-\[20px\] {
+  scroll-margin-top: 20px;
+}
+
 .flex-row {
   flex-direction: row;
 }

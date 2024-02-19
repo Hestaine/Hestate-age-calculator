@@ -2,6 +2,10 @@
 const menuBtn = document.querySelector(".menu");
 const menuClose = document.querySelector(".close-menu");
 const nav = document.querySelector(".nav");
+const contacBtn = document.querySelector(".contact-btn");
+const contacSection = contacBtn.getAttribute("href");
+const otherBtn = document.querySelector(".other-btn");
+const otherSection = otherBtn.getAttribute("hreg");
 
 // Web functions
 // Menu open
