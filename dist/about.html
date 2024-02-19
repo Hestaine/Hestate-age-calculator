@@ -55,17 +55,19 @@
         > -->
       </nav>
     </div>
-    <main class="flex flex-col lg:pl-[7rem]">
+    <main
+      class="flex flex-col lg:pl-[3rem] lg:items-start lg:gap-[4rem] sm:gap-[3rem] sm:items-center"
+    >
       <h1 class="underline text-center lg:text-[4rem] sm:text-[2rem]">About</h1>
       <div
-        class="about-me flex w-[100vw] lg:flex-row lg:gap-[2rem] sm:flex-col"
+        class="about-me flex w-[100vw] lg:flex-row gap-[2rem] lg:items-center sm:flex-col"
       >
         <img
           src="./images/cool-anime-nawpic-27-scaled.jpg"
           alt="img"
-          class="lg:size-[16rem]"
+          class="lg:size-[16rem] sm:size-[18rem] sm:rounded-none rounded-full"
         />
-        <p class="description lg:w-[40vw]">
+        <p class="description lg:w-[70vw] sm:w-[90vw] lg:text-[1.7rem]">
           I don't really have much to say, but i'm just a dev who looks to
           polish his skills and be renowned. and I believe being practical is
           the best way to engage in your journey as a developerm, I honestly
@@ -73,9 +75,58 @@
           and so i'll keep doing my best hope you do too.
         </p>
       </div>
-      <div class="about-project"></div>
-      <footer></footer>
+      <div
+        class="about-project flex w-[100vw] lg:flex-row gap-[2rem] lg:items-center sm:flex-col"
+      >
+        <img
+          src="./images/pexels-pixabay-270549.jpg"
+          alt="img"
+          class="lg:size-[16rem] sm:size-[18rem] sm:rounded-none rounded-full"
+        />
+        <p class="description lg:w-[70vw] sm:w-[90vw] lg:text-[1.7rem]">
+          I don't really have much to say, but i'm just a dev who looks to
+          polish his skills and be renowned. and I believe being practical is
+          the best way to engage in your journey as a developerm, I honestly
+          can't wait for the day my work is out there and people are like wow,
+          and so i'll keep doing my best hope you do too.
+        </p>
+      </div>
     </main>
+    <footer
+      class="flex flex-col lg:px-[4rem] sm:p-[1.5rem] w-[100vw] shadow-upward py-[1rem] mt-[2rem] sm:gap-[1.5rem] lg:items-center items-start"
+    >
+      <div class="links flex lg:gap-[3rem] sm:gap-[1.2rem]">
+        <a href="index.html" class="hover:text-blue-400 active:text-red-600"
+          >Home</a
+        >
+        <a
+          href="index.html#other-projects"
+          class="hover:text-blue-400 active:text-red-600"
+          >Other Projects</a
+        >
+        <a
+          href="index.html#contact"
+          class="other-btn hover:text-blue-400 active:text-red-600"
+          >contact me</a
+        >
+      </div>
+      <section
+        class="flex lg:flex-row sm:flex-col lg:gap-[3rem] sm:gap-[1.2rem]"
+        id="review"
+      >
+        <div class="review flex flex-col gap-[1.5rem]">
+          <h2>
+            If you have any complaint or feedback pls write a review. Thank you
+          </h2>
+          <a
+            href="mailto:ariffhestaine@gmail.com"
+            class="text-slate-400 text-center"
+            >Write a a review</a
+          >
+        </div>
+      </section>
+      <p class="text-center">©copyright Hestate 2024</p>
+    </footer>
     <script src="about.js"></script>
   </body>
 </html>
