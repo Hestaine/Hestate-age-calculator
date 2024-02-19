@@ -981,6 +981,10 @@ video {
     padding-left: 2.5rem;
   }
 
+  .sm\:text-start {
+    text-align: start;
+  }
+
   .sm\:text-\[1\.2rem\] {
     font-size: 1.2rem;
   }
@@ -1068,6 +1072,11 @@ video {
     height: 19rem;
   }
 
+  .lg\:size-\[23rem\] {
+    width: 23rem;
+    height: 23rem;
+  }
+
   .lg\:h-\[10rem\] {
     height: 10rem;
   }
@@ -1098,6 +1107,10 @@ video {
 
   .lg\:w-\[70vw\] {
     width: 70vw;
+  }
+
+  .lg\:w-\[80vw\] {
+    width: 80vw;
   }
 
   .lg\:flex-row {
