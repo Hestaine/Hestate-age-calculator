@@ -918,6 +918,11 @@ video {
     height: 18rem;
   }
 
+  .sm\:size-\[15rem\] {
+    width: 15rem;
+    height: 15rem;
+  }
+
   .sm\:w-\[100vw\] {
     width: 100vw;
   }
@@ -940,6 +945,10 @@ video {
 
   .sm\:w-\[65vw\] {
     width: 65vw;
+  }
+
+  .sm\:w-\[50vw\] {
+    width: 50vw;
   }
 
   .sm\:flex-col {
