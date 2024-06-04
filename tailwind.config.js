@@ -15,6 +15,9 @@ module.exports = {
       boxShadow: {
         upward: "0px -10px 20px #645bac",
       },
+      borderRadius: {
+        borderLeft: "0px 20px 20px 0",
+      },
     },
   },
   plugins: [],

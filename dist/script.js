@@ -40,8 +40,12 @@ const calculatorClose = function () {
 
 // Calculate age
 const calcAge = function () {
-  const input = document.querySelector(".calculate-input").value;
-  const ageValue = year - input;
+  const inputedDate = new Date(
+    new Date() - new Date(document.querySelector(".calculate-input").value)
+  );
+
+  const ageValue = inputedDate.getFullYear() - 1970;
+
   if (ageValue > 120) {
     age.textContent = `Don't cap (${ageValue})🧢`;
   } else if (ageValue > 80) {
@@ -52,7 +56,7 @@ const calcAge = function () {
     age.textContent = `Adult (${ageValue})👨`;
   } else if (ageValue > 18) {
     age.textContent = `Young adult (${ageValue})💪`;
-  } else if (ageValue > 15) {
+  } else if (ageValue > 14) {
     age.textContent = `Almost an adult (${ageValue})🤭`;
   } else if (ageValue > 8) {
     age.textContent = `Happy growing (${ageValue})🧒`;
@@ -60,8 +64,6 @@ const calcAge = function () {
     age.textContent = `I'm suprised (${ageValue})👶`;
   } else if (ageValue < 0) {
     age.textContent = `Be realistic (${ageValue})🙄`;
-  } else if (isNaN(ageValue)) {
-    age.textContent = `You know your offense 🚨`;
   }
   calculateText.textContent = "Thanks for inputing😁";
 };

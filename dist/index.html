@@ -15,10 +15,10 @@
     />
   </head>
   <body
-    class="bg-slate-700 text-slate-100 font-serif overflow-x-hidden relative"
+    class="bg-slate-700 text-slate-100 font-serif overflow-x-hidden"
   >
     <div
-      class="overlay hidden absolute h-[56em] w-[100vw] bg-opaqeBlack blur-[10px] lg:top-0 lg:left-0 sm:top-[87rem] sm:left-[0.75rem]"
+      class="overlay hidden fixed h-[101vh] w-[101vw] bg-opaqeBlack  sm:top-0"
     ></div>
     <div
       class="nav-parent shadow-2xl w-[100vw] shadow-dropdowncolor flex flex-row items-center lg:px-[2rem] sm:px-[0.8rem] py-[0.6rem] justify-between mb-[1rem]"
@@ -101,21 +101,20 @@
           </div>
         </div>
       </section>
-    <div class="calculate-section flex-col absolute bg-slate-600 lg:top-[22rem] lg:w-[45vw] lg:pt-[2.5rem] lg:left-[25.5rem] mb-[1rem] items-center lg:p-[2rem] sm:top-[100rem] sm:left-[0.45rem] sm:p-[1rem] sm:w-[96vw] sm:pt-[3rem] rounded hidden">
+    <div class="calculate-section self-center flex-col fixed bg-slate-600 lg:pt-[2.5rem] lg:w-[66%] mb-[1rem] items-center lg:p-[2rem] sm:p-[1rem] sm:w-[85%] sm:pt-[3rem] rounded-borderLeft hidden">
       <h2 class="lg:text-[3rem] sm:text-[2rem] mb-[1rem]">Let the fun begin🤗</h2>
-      <h2 class="calculate-close text-[2.5rem] absolute lg:top-[0px] sm:top-[.1px] right-[2rem] cursor-pointer">×</h2>
+      <h2 class="calculate-close text-[2.5rem] fixed lg:top-[0px] sm:top-[.1px] right-[2rem] cursor-pointer">×</h2>
       <div class="calculate flex flex-col gap-[2rem]">
         <h3 class="calculate-text lg:text-[2.1rem] sm:text-[1.3rem]">
-              Please input your birth year below:
+              Please input your year, and month below:
         </h3>
         <div class="flex lg:gap-[3rem] sm:gap-[1.5rem]">
           <input
-                type="text"
+                type="date"
                 name="input"
                 id="input"
                 class="bg-buttonColor text-indigo-700 h-[2rem] w-[12rem] outline-dropdowncolor px-[0.5rem] rounded-lg calculate-input"
-                maxlength="4"
-                placeholder="2008"
+                placeholder="2008, 11"
               />
           <button
                 class="bg-buttonColor text-indigo-700 check px-[1rem] rounded-lg shadow-xl text-dropdowncolor"
@@ -126,7 +125,7 @@
         <h4 class="age lg:text-[2.5rem] sm:text-[1.3rem]"></h4>
       </div>
     </main>
-    <button class="grid get-age bg-buttonColor p-[12px] lg:w-[12.5rem] rounded text-indigo-700 mt-0 m-auto place-items-center text-[2rem] font-[400] shadow shadow-indigo-400">Get Age!</button>
+    <button class="grid get-age bg-buttonColor p-[12px] lg:w-[12.5rem] rounded text-indigo-700 mt-0 m-auto place-items-center text-[2rem] font-[400] shadow shadow-indigo-400">Calculate my Age!</button>
     <footer
       class="flex flex-col lg:px-[4rem] sm:p-[1.5rem] w-[100vw] shadow-upward py-[1rem] mt-[2rem] sm:gap-[1.5rem]"
     >
